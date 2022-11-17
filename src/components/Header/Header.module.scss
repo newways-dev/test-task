@@ -1,0 +1,25 @@
+.header {
+  padding: 20px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .createTodo {
+    border: none;
+    border-radius: 3px;
+    padding: 5px 25px;
+    cursor: pointer;
+    background: limegreen;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+
+    &:hover {
+      background: goldenrod;
+    }
+  }
+}

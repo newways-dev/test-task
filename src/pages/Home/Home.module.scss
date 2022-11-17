@@ -1,0 +1,21 @@
+.home {
+  padding: 0 150px;
+
+  .top {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+    .title {
+      font-size: 28px;
+    }
+  }
+
+  .todos {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
